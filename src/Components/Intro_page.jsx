@@ -9,7 +9,7 @@ const Intro = () => {
                 <div className="logo">
                     <img src={IntroLogo} alt="" />
                 </div> 
-                <NavLink to="/home" className="btn btn-light my-4">Get Started</NavLink>
+                <NavLink to="/home" className="btn btn-light btn-lg my-4">Get Started</NavLink>
             </div>
             
         </>

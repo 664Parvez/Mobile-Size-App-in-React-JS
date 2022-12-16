@@ -2,41 +2,51 @@
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/9.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/10.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/11.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/12.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/13.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/14.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/15.webp"
     },
     {
         "name" : "abc",
         "price" : "23.67",
-        "img" : "/img/fsf.png"
+        "img" : "/img/16.webp"
+    },
+    {
+        "name" : "abc",
+        "price" : "23.67",
+        "img" : "/img/17.webp"
+    },
+    {
+        "name" : "abc",
+        "price" : "23.67",
+        "img" : "/img/18.webp"
     }
 ]

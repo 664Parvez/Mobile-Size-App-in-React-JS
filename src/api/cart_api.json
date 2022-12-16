@@ -1,0 +1,12 @@
+[
+    {
+        "img" : "/img/10.webp",
+        "name" : "Chicken Burger",
+        "price" : 34.12
+    },
+    {
+        "img" : "/img/11.webp",
+        "name" : "Cheese Burger",
+        "price" : 23.13
+    }
+]

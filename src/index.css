@@ -13,6 +13,10 @@ body{
   display: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 .mobile_size{
   max-width: 428px;
   background-color: #ffffff;
@@ -48,6 +52,10 @@ body{
 #intro_page{
   background-color: #D60E64;
   text-align: center;
+}
+#intro_page img{
+  height: auto;
+  width: 170px;
 }
 #intro_page .logo{
   margin-top: 50%;
@@ -91,9 +99,13 @@ body::-webkit-scrollbar {
   width: 100%;
   flex-shrink: 2;
   padding: 20px;
-  background-color: aqua;
+  background-color: #93ffff;
   margin: 10px 5px;
   border-radius: 5px;
+}
+.slide img{
+  height: 50px;
+  width: 50px;
 }
 
 .first_food h6{
@@ -105,6 +117,7 @@ body::-webkit-scrollbar {
 
 .back_color{
   text-align: center;
+  padding: 3px;
 }
 .back_color .food_div{
   margin: 5px;
@@ -115,6 +128,38 @@ body::-webkit-scrollbar {
 .back_color img{
   height: 120px;
   width: 120px;
+}
+.back_color h6{
+  color: #D60E64;
+}
+.back_color p{
+  color: #000000;
+}
+
+#cart_page .btn{
+  background-color: #D60E64;
+  color: #ffffff;
+  border-radius: 10px;
+}
+#cart_page .product_cart_list img{
+  height: auto;
+  width: 100%;
+}
+
+
+
+#refer_friends .refer_page img{
+  height: auto;
+  width: 330px;
+}
+#refer_friends .refer_page h4{
+  font-weight: 600;
+}
+#refer_friends .refer_page code{
+  font-size: 35px;
+  padding: 10px 20px;
+  background-color: #ffeded;
+  border-radius: 20px;
 }
 
 
@@ -170,13 +215,6 @@ body::-webkit-scrollbar {
 }
 
 
-
-
-#spacial_offer code{
-  font-size: 40px;
-  padding: 10px;
-  background-color: #ffeded;
-}
 #spacial_offer .btn{
   background-color: #D60E64;
   width: 100%;

@@ -1,38 +1,26 @@
 [
     {
-        "food" : "/img/1.svg"
+        "food" : "/img/1.webp"
     },
     {
-        "food" : "/img/2.svg"
+        "food" : "/img/2.webp"
     },
     {
-        "food" : "/img/1.svg"
+        "food" : "/img/3.webp"
     },
     {
-        "food" : "/img/2.svg"
+        "food" : "/img/4.webp"
     },
     {
-        "food" : "/img/1.svg"
+        "food" : "/img/5.webp"
     },
     {
-        "food" : "/img/2.svg"
+        "food" : "/img/6.webp"
     },
     {
-        "food" : "/img/1.svg"
+        "food" : "/img/7.webp"
     },
     {
-        "food" : "/img/2.svg"
-    },
-    {
-        "food" : "/img/1.svg"
-    },
-    {
-        "food" : "/img/2.svg"
-    },
-    {
-        "food" : "/img/1.svg"
-    },
-    {
-        "food" : "/img/2.svg"
+        "food" : "/img/8.webp"
     }
 ]

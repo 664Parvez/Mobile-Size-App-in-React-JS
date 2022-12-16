@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Fixed_footer";
+import { Link } from "react-router-dom";
 
 import FirstFood from "../api/first_food.json"
 import SecondFood from "../api/second_food.json"
+// import ProductSinglePage from "./product_single_page";
 
 const Home = () => {
 
@@ -39,15 +41,19 @@ const Home = () => {
                                 {
                                     secondFood.map((items) => {
                                         return(
-                                            <div className="col-6 back_color">
-                                                <div className="food_div">
-                                                    <img src={items.img} alt="" />
-                                                </div>
-                                                <div className="food_content">
-                                                    <h6 className="mb-0">{items.name}</h6>
-                                                    <p>${items.price}</p>
-                                                </div>
-                                            </div> 
+                                            
+                                                <div className="col-6 back_color">
+                                                    <Link to="/product-single-page">
+                                                    <div className="food_div">
+                                                        <img src={items.img} alt="" />
+                                                    </div>
+                                                    <div className="food_content">
+                                                        <h6 className="mb-0">{items.name}</h6>
+                                                        <p>${items.price}</p>
+                                                    </div>
+                                                    </Link>
+                                                </div> 
+                                            
                                         )
                                     })
                                 }

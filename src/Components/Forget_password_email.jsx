@@ -1,22 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import User from "../img/user.png"
+import HeadBack from "./head_back";
 
 const Forget_password_email = () => {
-    const back = () => {
-        window.history.back()
-    }
     return (
         <>
            <div className="mobile_size" id="forget_pass_email">
-                <div className="row">
-                    <div className="col-6">
-                        <Link to="/" onClick={back}><i className="page_back fa-solid fa-angle-left"></i></Link> {/* onclick="history.back()" [ It can get back to previous page ] */}
-                    </div>
-                    <div className="col-6 text-end">
-                        <img className="user_img" src={User} alt="" />
-                    </div>
-                </div>
+                <HeadBack />
 
                 <h4 className="text-center mt-5">Forget Password</h4>
                 <p className="text-center">Enter your email address</p>

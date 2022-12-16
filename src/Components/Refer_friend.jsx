@@ -1,31 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import User from "../img/user.png"
+
+import ReferImage from "../img/refer-page.webp"
+import HeadBack from "./head_back";
+
 
 const Refer_friend = () => {
 
-    const back = () => {
-        window.history.back()
-    }
-
     return (
         <>
-            <div className="mobile_size" id="spacial_offer">
-                <div className="row">
-                    <div className="col-6">
-                        <Link to="/" onClick={back}><i className="page_back fa-solid fa-angle-left"></i></Link> {/* onclick="history.back()" [ It can get back to previous page ] */}
-                    </div>
-                    <div className="col-6 text-end">
-                        <img className="user_img" src={User} alt="" />
-                    </div>
-                </div>
+            <div className="mobile_size" id="refer_friends">
+            <HeadBack />
 
                 <h4>Refer & Earn</h4>
 
-                
+                <div className="refer_page text-center">
+                    <div className="text-center">
+                        <img src={ReferImage} alt="" />
+                    </div>
 
+                    <h4 className="mt-3">Refer a Friend</h4>
+                    <p>Share your promo code with your friends and you both get $20</p>
 
-                {/* <code>F53C60</code> */}
+                    <h3>
+                        <code>F53C604</code>
+                    </h3>
+                </div>
+
             </div>
         </>
     )
