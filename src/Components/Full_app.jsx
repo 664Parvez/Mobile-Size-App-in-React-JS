@@ -11,7 +11,6 @@ import ProductSinglePage from "./product_single_page";
 import Cart from "./Cart"
 import Chechout from "./Chechout";
 import Favorite from "./Favorite";
-import AddToCart from "./Add_to_cart";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Intro from "./Intro_page";
@@ -33,7 +32,7 @@ const Full_app = () => {
                     <Route path="/product-single-page" element={<ProductSinglePage />}></Route>
                     <Route path="/cart" element={<Cart />}></Route>
                     <Route path="/chechout" element={<Chechout />}></Route>
-                    <Route path="/my-cart" element={<AddToCart />}></Route>
+                    <Route path="/my-cart" element={<Cart />}></Route>
                     <Route path="/favorites" element={<Favorite />}></Route>
                 </Routes>
             </Router>

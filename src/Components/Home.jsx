@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Fixed_footer";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import FirstFood from "../api/first_food.json"
 import SecondFood from "../api/second_food.json"
-// import ProductSinglePage from "./product_single_page";
+
+import Img1 from "../img/1.webp"
+import Img2 from "../img/2.webp"
+import Img3 from "../img/3.webp"
+import Img4 from "../img/4.webp"
 
 const Home = () => {
 
@@ -19,6 +23,23 @@ const Home = () => {
                     <div id="home_page">
                         <h5>Good Day! <span>Parvez Rabbi</span> </h5>
                         <h2>Grab your <span><br />delicious meal!</span></h2>
+
+                        <div className="four_div_section">
+                            <div className="row">
+                                <div className="col-6">
+                                    <img src={Img1} alt="" />
+                                </div>
+                                <div className="col-6">
+                                    <img src={Img4} alt="" />
+                                </div>
+                                <div className="col-6">
+                                    <img src={Img2} alt="" />
+                                </div>
+                                <div className="col-6">
+                                    <img src={Img3} alt="" />
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="first_food mt-4">
                             <h6>All Categories</h6>
@@ -43,7 +64,7 @@ const Home = () => {
                                         return(
                                             
                                                 <div className="col-6 back_color">
-                                                    <Link to="/product-single-page">
+                                                    <NavLink to="/product-single-page">
                                                     <div className="food_div">
                                                         <img src={items.img} alt="" />
                                                     </div>
@@ -51,7 +72,7 @@ const Home = () => {
                                                         <h6 className="mb-0">{items.name}</h6>
                                                         <p>${items.price}</p>
                                                     </div>
-                                                    </Link>
+                                                    </NavLink>
                                                 </div> 
                                             
                                         )

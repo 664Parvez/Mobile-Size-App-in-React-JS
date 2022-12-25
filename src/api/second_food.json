@@ -1,51 +1,61 @@
 [
     {
-        "name" : "abc",
+        "id" : 1,
+        "name" : "Chicken Burger",
         "price" : "23.67",
         "img" : "/img/9.webp"
     },
     {
-        "name" : "abc",
+        "id" : 2,
+        "name" : "Beaf Burger",
         "price" : "23.67",
         "img" : "/img/10.webp"
     },
     {
-        "name" : "abc",
+        "id" : 3,
+        "name" : "Cheese Burger",
         "price" : "23.67",
         "img" : "/img/11.webp"
     },
     {
-        "name" : "abc",
+        "id" : 4,
+        "name" : "Vegetable Burger",
         "price" : "23.67",
         "img" : "/img/12.webp"
     },
     {
-        "name" : "abc",
+        "id" : 5,
+        "name" : "Cheese Burger",
         "price" : "23.67",
         "img" : "/img/13.webp"
     },
     {
-        "name" : "abc",
+        "id" : 6,
+        "name" : "Cheese Pizza",
         "price" : "23.67",
         "img" : "/img/14.webp"
     },
     {
-        "name" : "abc",
+        "id" : 7,
+        "name" : "Chicken Pizza",
         "price" : "23.67",
         "img" : "/img/15.webp"
     },
     {
-        "name" : "abc",
+        "id" : 8,
+        "name" : "Vegetable Pizza",
         "price" : "23.67",
         "img" : "/img/16.webp"
     },
     {
-        "name" : "abc",
+        "id" : 9,
+        "name" : "Beaf Pizza",
         "price" : "23.67",
         "img" : "/img/17.webp"
     },
     {
-        "name" : "abc",
+        "id" : 10,
+        "name" : "Full Cheese Pizza",
         "price" : "23.67",
         "img" : "/img/18.webp"
     }

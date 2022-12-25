@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "name" : "Chicken Burger",
+        "price" : "23.67",
+        "img" : "/img/9.webp"
+    },
+    {
+        "id" : 2,
+        "name" : "Beaf Burger",
+        "price" : "23.67",
+        "img" : "/img/10.webp"
+    },
+    {
+        "id" : 3,
+        "name" : "Cheese Burger",
+        "price" : "23.67",
+        "img" : "/img/11.webp"
+    }
+]
